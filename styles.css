@@ -44,8 +44,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 .nav-item:hover {
-  color: #06b6e7;
-  text-shadow: 6px 6px 15px #06b6e7;
+  color: #f9a71f;
+  text-shadow: 6px 6px 15px #f9a71f;
     transform: scale(1.05);
 }
 
@@ -55,10 +55,10 @@ a {
   border-radius: 60px;
   outline: none;
   margin-right: -35px;
-  border: 2px solid #06b6e7;
+  border: 2px solid #f9a71f;
 }
 .search:focus {
-  box-shadow: 0 0 5px #06b6e7;
+  box-shadow: 0 0 5px #f9a71f;
 }
 
 .btn0 {
@@ -66,34 +66,15 @@ a {
   width: 40%;
   outline: none;
   border : none;
-  background-color: #06b6e7;
+  background-color: #f9a71f;
   color: #fff;
   border-radius: 60px;
   font-weight: 700;
     transition: all 0.3s ease-in-out;
 }
 .btn0:focus {
-  background-color: #06b6e7;
+  background-color: #f9a71f;
   color: #fff;
-      box-shadow: 0px 0px 5px #06b6e7;
+      box-shadow: 0px 0px 5px #f9a71f;
 
-}
-
-.carousel-caption {
-    position: absolute;
-    left: 5%;
-    text-align: left;
-  }
-
-  .hero-h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.hero-h1:hover {
-    color: #ff6600;
-    text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
 }
