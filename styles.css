@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #000;
+  font-family: "Agbalumo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-brand:hover {
+  color: #000;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  color: #000;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(248, 26, 92);
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border : none;
+  background-color: rgb(248, 26, 92);
+  color: #fff;
+  border-radius: 60px;
+  font-weight: 700;
+}
