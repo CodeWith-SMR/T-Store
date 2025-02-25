@@ -29,6 +29,7 @@ a {
   font-family: "Agbalumo", serif;
   font-weight: 400;
   font-style: normal;
+    /* transition: all 0.3s ease-in-out; */
 }
 .navbar-brand:hover {
   color: #000;
@@ -40,9 +41,12 @@ a {
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
 .nav-item:hover {
-  color: #000;
+  color: #06b6e7;
+  text-shadow: 6px 6px 15px #06b6e7;
+    transform: scale(1.05);
 }
 
 .search {
@@ -51,7 +55,10 @@ a {
   border-radius: 60px;
   outline: none;
   margin-right: -35px;
-  border: 2px solid rgb(248, 26, 92);
+  border: 2px solid #06b6e7;
+}
+.search:focus {
+  box-shadow: 0 0 5px #06b6e7;
 }
 
 .btn0 {
@@ -59,8 +66,34 @@ a {
   width: 40%;
   outline: none;
   border : none;
-  background-color: rgb(248, 26, 92);
+  background-color: #06b6e7;
   color: #fff;
   border-radius: 60px;
   font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.btn0:focus {
+  background-color: #06b6e7;
+  color: #fff;
+      box-shadow: 0px 0px 5px #06b6e7;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 5%;
+    text-align: left;
+  }
+
+  .hero-h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-h1:hover {
+    color: #ff6600;
+    text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
 }
