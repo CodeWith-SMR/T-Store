@@ -207,5 +207,67 @@
       }
 
       
-      /* .Bottom-banner {
-      } */
+      .Bottom-banner {
+        margin-bottom: 5%;
+      }
+
+      .input-group {
+    display: flex;
+    gap: 10px; /* Space between inputs */
+    flex-wrap: wrap;
+}
+
+
+/* Input Styling */
+
+  .container-1 {
+        padding-left: 20%;
+    padding-right: 20%;
+  }
+
+.form-control {
+    flex: 1;
+    min-width: 200px; /* Ensures proper responsiveness */
+    border: 2px solid #ccc; /* Default border */
+    padding: 10px;
+    border-radius: 5px;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+.form-control:focus,
+textarea:focus {
+    border-color: #f9a71f; /* Highlight border color */
+    outline: none;
+    box-shadow: 0 0 5px #f9a71f; /* Glowing effect */
+}
+
+/* Textarea Full Width */
+textarea {
+    width: 100%;
+    resize: none; /* Prevents unnecessary resizing */
+}
+
+
+.footer {
+    background: #222;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f9a71f;
+    color: #f9a71f;
+}
+
+.search-box {
+  padding-right: 30%;
+  padding-left: 30%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
